@@ -1,0 +1,12 @@
+/home/codigo/workspace/mynft/program/target/sbf-solana-solana/release/deps/spl_token-6cbd660e4a5f3c5f.so: /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/lib.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/error.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/instruction.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/native_mint.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/processor.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/state.rs
+
+/home/codigo/workspace/mynft/program/target/sbf-solana-solana/release/deps/libspl_token-6cbd660e4a5f3c5f.rlib: /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/lib.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/error.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/instruction.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/native_mint.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/processor.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/state.rs
+
+/home/codigo/workspace/mynft/program/target/sbf-solana-solana/release/deps/spl_token-6cbd660e4a5f3c5f.d: /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/lib.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/error.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/instruction.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/native_mint.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/processor.rs /home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/state.rs
+
+/home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/lib.rs:
+/home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/error.rs:
+/home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/instruction.rs:
+/home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/native_mint.rs:
+/home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/processor.rs:
+/home/codigo/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-4.0.0/src/state.rs:
