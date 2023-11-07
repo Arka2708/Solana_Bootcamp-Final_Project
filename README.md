@@ -25,54 +25,54 @@ To deploy and interact with the contract, follow these steps:
 2. **Clone the Repository**: Clone this repository to your local environment.
 
    ```bash
-   git clone https://github.com/your-repo/your-nft-contract.git
+   [git clone https://github.com/your-repo/your-nft-contract.git](https://github.com/Arka2708/Solana_Bootcamp-Final_Project/)
 Navigate to the Project Directory:
 
-bash
-Copy code
-cd your-nft-contract
+```bash
+   cd your-nft-contract
+```
 Compile the Program:
 
-bash
-Copy code
-cargo build-bpf
+```bash
+    cargo build-bpf
+```
 Deploy the Program: Deploy the compiled program to the Solana blockchain. This will give you a program ID that you will use to interact with the contract.
+```
+```bash
+    solana program deploy target/deploy/your_nft_program.so
 
-bash
-Copy code
-solana program deploy target/deploy/your_nft_program.so
+```
 Interact with the Contract: You can interact with the contract using the Solana CLI or by building a custom front-end for users to mint, transfer, and burn NFTs.
 
 Usage
 Minting NFTs
 To mint a new NFT, use the mint method with the required metadata:
-
-bash
-Copy code
-solana call <Your Program ID> mint \
-    --input <Mint Account> \
-    --input <Your NFT Account (to receive the NFT)> \
-    --input <Your Wallet (for authorization)> \
-    --input <Title> \
-    --input <Artist> \
-    --input <Description> \
-    --input <Image URL>
+```
+```bash
+   solana call <Your Program ID> mint \
+       --input <Mint Account> \
+       --input <Your NFT Account (to receive the NFT)> \
+       --input <Your Wallet (for authorization)> \
+       --input <Title> \
+       --input <Artist> \
+       --input <Description> \
+       --input <Image URL>
+```
 Transferring NFTs
 To transfer an NFT, use the transfer method with the NFT account and the recipient's account:
 
-bash
-Copy code
-solana call <Your Program ID> transfer \
-    --input <Mint Account> \
-    --input <Your NFT Account (to transfer)> \
-    --input <Recipient Account> \
-    --input <Your Wallet (for authorization)>
+```bash
+   solana call <Your Program ID> transfer \
+       --input <Mint Account> \
+       --input <Your NFT Account (to transfer)> \
+       --input <Recipient Account> \
+       --input <Your Wallet (for authorization)>
+```
 Burning NFTs
 To burn (destroy) an NFT, use the burn method with the NFT account:
 
-bash
-Copy code
-solana call <Your Program ID> burn \
-    --input <Mint Account> \
-    --input <Your NFT Account (to burn)> \
-    --input <Your Wallet (for authorization)>
+```bash
+   solana call <Your Program ID> burn \
+       --input <Mint Account> \
+       --input <Your NFT Account (to burn)> \
+       --input <Your Wallet (for authorization)>
